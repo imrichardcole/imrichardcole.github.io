@@ -1,0 +1,4 @@
+permalink: /:title/
+highlighter: rouge
+markdown: kramdown
+name: imrichardcole.github.io

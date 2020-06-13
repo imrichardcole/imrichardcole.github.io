@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@imrichardcole"/>
+    <meta name="twitter:site" content="@imrichardcole"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:domain" content="imrichardcole.github.io">
+    <meta name="twitter:description" content="{{ page.summary }}">
+    <title>{{ page.title }} | imrichardcole.github.io</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/pygment.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="large-12 large-offset-1 columns" id="header">
+        <h1>
+          <a href="/">Richard Cole</a>
+        </h1>
+        <a href="/">blog</a>,
+        <a href="/contact">contact</a>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 large-centered columns">
+        {{ content }}
+    </div>
+</div>
+{% if jekyll.environment == 'production' %}
+   {% include analytics.html %}
+{% endif %}
+</body>
+</html>

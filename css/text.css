@@ -1,0 +1,100 @@
+#header h1 {
+    font-size: 40px;
+    display: inline-block;
+}
+
+code, pre {
+    color: #000;
+    background-color: #fff;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 100%;
+    overflow: visible;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Markazi Text', serif;
+    font-size: 120%;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p img {
+    width: 100%;
+}
+
+p code, li>code {
+    border: 1px solid #DDDDDD;
+    padding: 2px;
+    font-size: 0.8em;
+}
+
+#header h1 a, h2.post-title a, h2.static-title a {
+    color: #000;
+}
+
+ul, ol {
+    margin-left: 2em;
+}
+
+div.highlight, pre {
+    margin-bottom: 1em;
+}
+
+code.has-jax {
+    border: none;
+    background-color: #fff;
+}
+
+.date {
+    text-align: center;
+    font-style: italic;
+    color: #4e4e4e;
+}
+
+h2.post-title {
+    font-size: 210%;
+    margin-bottom: 0;
+}
+
+.summary {
+    text-align: center;
+    font-style: italic;
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+body {
+    font: 300 1.1em/1.6em "Palatino", serif;
+    font-size: 120%;
+    line-height: 120%;
+}
+
+blockquote {
+    padding-top: 0;
+}
+
+.panel {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 120%;
+}
+
+.panel p {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.1em;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span {
+    font-style: italic;
+}

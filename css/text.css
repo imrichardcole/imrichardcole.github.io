@@ -3,6 +3,10 @@
     display: inline-block;
 }
 
+ol {
+    padding-left: 65;
+}
+
 code, pre {
     color: #000;
     background-color: #fff;

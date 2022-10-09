@@ -1,0 +1,24 @@
+title: Moderate or good, occasionally poor
+description: A place to write and share things I'm working on.
+permalink: ':title/'
+
+url: "https://imrichardcole.github.io"
+
+author: imrichardcole
+author-img: mugshot.jpg
+
+social-twitter: imrichardcole
+social-github: imrichardcole
+
+analytics: # Google Analytics
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

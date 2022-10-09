@@ -1,0 +1,8 @@
+_site
+.jekyll-cache
+yarn.lock
+Gemfile.lock
+package-lock.json
+.DS_Store
+
+_drafts
